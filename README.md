@@ -3,10 +3,7 @@
 
 based on [Official Guide]
 
-
 [Install JDK]
-
-`Make tutorial guide to install JDK 1.8`
 
 [Install Gradle]
 
@@ -145,10 +142,10 @@ public class Application {
 Run Gradle build
 
 ```bash
-gradlew build && java -jar build/libs/gs-spring-boot-0.1.0.jar
+gradle build && java -jar build/libs/gs-spring-boot-0.1.0.jar
 ```
 
-Wait to build the project..
+**Wait to build the project...**
 
 Run:
 
@@ -162,6 +159,6 @@ See result
 > Greetings from Spring Boot!
 
 
-
+[Install JDK]: <https://linuxize.com/post/install-java-on-ubuntu-18-04/>
 [Install Gradle]: <https://gradle.org/install/>
 [Official Guide]: <https://spring.io/guides/gs/spring-boot/>
