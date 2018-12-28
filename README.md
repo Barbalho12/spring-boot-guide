@@ -22,13 +22,13 @@ export PATH=$PATH:/opt/gradle/gradle-5.0/bin
 gradle -v
 ```
 
-Make prokect diretory
+Create project directory `src/main/java/hello`
 
 ```bash
 mkdir -p src/main/java/hello
 ```
 
-Criate file gradle settings (example with sublime text editor)
+Create build gradle settings `build.gradle` (example with sublime text editor)
 
 ```bash
 subl build.gradle
@@ -70,7 +70,7 @@ dependencies {
 }
 ```
 
-Criate class HelloController (example with sublime text editor)
+Create class `HelloController` (example with sublime text editor)
 
 ```bash
 subl src/main/java/hello/HelloController.java
@@ -95,7 +95,7 @@ public class HelloController {
 }
 ```
 
-Criate class Application (example with sublime text editor)
+Create class `Application` (example with sublime text editor)
 
 ```bash
 subl src/main/java/hello/Application.java
